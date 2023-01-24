@@ -11,15 +11,16 @@ class App extends Component {
                     <p id='text'>
                         Edit <code>src/App.js</code> and save to reload.
                     </p>
+                    <p id='author'> - Anon</p>
                     <button id='new-quote' onClick=''>New Quote</button>
                     <a
                         className='App-link'
-                        href='twitter.com/intent/tweet'
+                        href='https://www.twitter.com/intent/tweet'
                         target='_blank'
                         rel='noopener noreferrer'
                         id='tweet-quote'
                     >
-                        Learn React
+                        Share Quote on Twitter
                     </a>
                 </div>
             </div>
